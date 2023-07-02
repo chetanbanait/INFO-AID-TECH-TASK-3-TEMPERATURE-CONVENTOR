@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature converter</title>
+</head>
+
+<body bgcolor="pink">
+<br>
+<br>
+<hr>
+<br>
+<p> <center><b><h1> Info aidTech </h1></b></center></p>
+<br>
+<hr>
+<br>
+<p> <center><b><h1>Task - 3  </h1></b></center></p>
+<br>
+<hr>
+<br>
+<p> <center><b><h1> Temperature Converter </h1></b></center></p>
+<br>
+<hr>
+<br>
+<p> <center><b><h1>Created by- Chetan Banait</h1 ></b></center></p>
+  <br><hr>
+<br>
+    <div class="container">
+        <form id="calcTemp" onsubmit="calculateTemp(); return false">
+            <label for="temp">Enter the temperature to convert</label>
+            <br>
+            <input type="number" name="temp" id="temp" value="0">
+            <select name="temp_diff" id="temp_diff">
+                <option value="cel">&#176;Celsius</option>
+                <option value="fah">&#176;Fahrenheit</option>
+            </select>
+            <br>
+            <input type="submit" name="temp" id="submit">
+            <br>
+            <span id="result"></span>
+        </form>
+    </div>
+<footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h2>Temperature Converter<span>.</span></h2>
+<br>
+<br>
+          <p><h4>
+            Temperature Converter is the convert degree celcius into the fahrenheit or vice versa....
+        </h4>  </p>
+        </div>
+        <div class="footer__col">
+          <h2>Support</h2>
+<br>
+<br>
+          <p>FAQs</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="footer__col">
+          <h2>Address</h2>
+<br>
+<br>
+          <p>
+            <span>Address:</span> Kalamb dist- yavatmal
+          </p>
+          <p><span>Email:</span> info@CHOTACHETAN.com</p>
+          <p><span>Phone:</span> +917058478975</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+<hr><h4>
+        Copyright © 2023 CHOTA CHETAN . All rights reserved.
+  </h4>    </div>
+<hr>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
